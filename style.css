@@ -1,0 +1,164 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #444;
+}
+
+.container {
+  width: 120rem;
+  margin: 0 auto;
+}
+
+.secondary-heading {
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  margin-bottom: 5rem;
+}
+
+/* Header */
+
+.header-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+
+#header-img {
+  width: 30rem;
+  height: auto;
+}
+
+#nav-bar {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  gap: 5rem;
+  list-style: none;
+  font-size: 1.6rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #444;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+/* Hero */
+
+.hero {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  height: 50vh;
+  margin-bottom: 5rem;
+}
+
+#title {
+  font-size: 4.8rem;
+  line-height: 4.8rem;
+  margin-bottom: 2rem;
+}
+
+.heading-description {
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  margin-bottom: 3rem;
+}
+
+#email {
+  height: 3.6rem;
+  width: 24rem;
+  margin-right: 1rem;
+  padding: 1rem;
+  border: none;
+  background-color: #ddd;
+}
+
+#submit {
+  height: 3.6rem;
+  width: 15rem;
+  background-color: rgb(66, 179, 32);
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 700;
+  border: none;
+}
+
+/* Features */
+
+#feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10rem;
+}
+
+.feature-lists {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 8rem;
+}
+
+.feature-list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.icon {
+  width: 5rem;
+  margin-bottom: 2rem;
+}
+
+.feature-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.feature-description {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+}
+
+/* Pricing */
+
+#pricing {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pricing-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 3rem;
+}
+
+.pricing-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid #777;
+}
+
+.pricing-title {
+  font-size: 2.4rem;
+  font-weight: 500;
+}
